@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(132, 26, 26);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 30px;
+  color: white;
+  font-size: large;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.heading {
+  color: white;
+  font-size: larger;
+  margin: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.header-topic {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  font-weight: 80px;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.box {
+  height: 550px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  display: grid;
+  background-color: white;
+}
+.grid {
+  margin: 0px 5px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.movie-poster img {
+  height: 150px;
+  width: 136px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.content-area {
+  background-color: black;
+  height: 100vh;
+}
+
+.movie-poster {
+  display: flex;
+  justify-content: center;
+}
